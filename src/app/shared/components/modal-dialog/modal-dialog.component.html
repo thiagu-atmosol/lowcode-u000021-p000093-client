@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>{{ title }}</h2>
+<div mat-dialog-content>
+  <p>{{ modalBodyContent }}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancelClick()">{{ closeBtnTitle }}</button>
+  <button mat-button color="warn" (click)="onSubmitClick()">{{ submitBtnTitle }}</button>
+</div>
